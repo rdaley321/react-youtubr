@@ -48,19 +48,3 @@ export default {
 };
 
 ```
-
-#### lodash debounce
-
-lodash debounce method is a cool feature to add (time permitting):
-
-```js
-//_.debounce is passed a function and an amount of time (n) in milliseconds.
-// it will retunr a copy of the passed in function that can only be called
-// once per n seconds
-
-const videoSearch = _.debounce(term => {
-  this.videoSearch(term);
-}, 200);
-
-// videoSearch is now a function you can pass as the callback prop
-```
