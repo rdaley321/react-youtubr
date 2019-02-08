@@ -24,7 +24,7 @@ const embedUrl = `https://www.youtube.com/embed/${videoId}`;
 
 There is an example API response in index.js
 
-When building app with students, try to follow something along the lines of the steps described in *Thinking in React* for building any React application
+When building app, try to follow something along the lines of the steps described in *Thinking in React* for building any React application
 
 1. Break the app into components
 2. Build a static version of the app
