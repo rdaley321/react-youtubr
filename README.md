@@ -9,7 +9,7 @@ Today you will be using YouTubes API to create an interface for searching youtub
 
 #### iframes are weird
 
-iframes are a little bit picky about the url you use for the `src` attribute.
+We can use an iframe to display the videos once we select them. iframes are a little bit picky about the url you use for the `src` attribute.
 To get the video to render be sure to set up the embedUrl along the lines of:
 
 ```js
