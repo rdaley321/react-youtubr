@@ -40,7 +40,7 @@ i.e. add some static initial state and only add in fetch request after
 
 create a file in the `src` directory called `keys.js`.
 
-The code inside mine is:
+The code inside should look like this:
 
 ```js
 export default {
