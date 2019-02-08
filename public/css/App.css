@@ -1,0 +1,79 @@
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.searcheeee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 21%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.prompt {
+  min-width: 500px;
+}
+
+.cardlist {
+  flex-basis: 39%;
+  max-height: 550px;
+  overflow: scroll;
+}
+
+.card {
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.cardtopdiv {
+  display: flex;
+}
+
+.cardtitle {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4px;
+  text-align: center;
+}
+
+.carddes {
+  margin-top: 10px;
+}
+
+.mainvideo {
+  flex-basis: 59%;
+  margin-left: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.mainvideotitle {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.mainvideodes {
+  font-size: 20px;
+}
+
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
