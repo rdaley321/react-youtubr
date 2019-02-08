@@ -2,6 +2,9 @@
 
 ![Copy this image if you like](youtube-example-mockup-img.png)
 
+## Overview
+Today you will be using YouTubes API to create an interface for searching youtube. The app should look like the above mock-up.
+
 ## A few things of note
 
 #### iframes are weird
